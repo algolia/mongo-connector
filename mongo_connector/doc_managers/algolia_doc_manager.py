@@ -253,7 +253,7 @@ class DocManager(DocManagerBase):
     def update(self, document_id, update_spec, namespace = None, timestamp = None):
         try:
             doc = self.index.getObject(str(document_id))
-        except AlgoliaException:
+        except algoliasearch.AlgoliaException:
             # The document is not in the index due to a delay or an error
             logging.warn("Update a missing object")
             doc = {}
