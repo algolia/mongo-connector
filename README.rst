@@ -1,3 +1,5 @@
+**WARNING** : This connector is deprecated, please use an [API Client](https://www.algolia.com/doc/).
+
 For complete documentation, check out the `Mongo Connector Wiki <https://github.com/10gen-labs/mongo-connector/wiki>`__.
 
 DISCLAIMER
